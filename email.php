@@ -7,7 +7,7 @@
 	
 	function varify($email,$index)
 	{
-		$url="https://trumail.io/json/";
+		$url="https://api.trumail.io/v1/json/";
 		
 		global $file_name;
 		$url.=$email;
